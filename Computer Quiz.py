@@ -34,8 +34,13 @@ if answer.lower() == "power supply unit":
     print("Correct! ")
     score += 1
 else:
-    
     print("Wrong! The correct answer is power supply unit!")
 
 if score < 2:
     performance = "Poorly"
+elif score == 2:
+    performance = "Average"
+else:
+    performance = "Excellent"
+percentage = score/4 * 100
+print(f"You got {score}/4 questions right! You did {performance} with {percentage}% accuracy!")
