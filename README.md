@@ -1,1 +1,1 @@
-I make mini python projects here to depen my knowledge of python and excersise it
+I will make mini python projects here to deepen my knowledge of python and exercise it.
